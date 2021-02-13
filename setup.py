@@ -13,7 +13,7 @@ setuptools.setup(
     description="A package for building a neural network to predict Peptide Amphiphile nanostructures",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/stupplab/paldnn.git",
+    url="https://github.com/stupplab/paldnn",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

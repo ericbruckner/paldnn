@@ -16,13 +16,12 @@ Peptide Amphiphile Learning with Deep Neural Networks (PALDNN). Python scripts f
 This package contains Python scripts to build and/or deploy a deep neural network (DNN) to predict whether a peptide amphiphile (PA) will assemble into micellar or fibrous nanostructures. Typical steps in this process include the following:
 - Build a SMILES for a PA based on the N-terminus modification, C-terminus modification, and amino acid sequence
 - Calculate molecular descriptors for a given PA
-- Train and optimize a DNN based on the calcualted molecular descriptors
-- Search the chemical space of PAs for a specific nanostructure
+- Train and optimize a DNN based on the calcualted molecular descriptors (see example https://github.com/ericbruckner/paldnn/tree/main/examples/training_dnn_
+- Search the chemical space of PAs for a specific nanostructure (see example https://github.com/ericbruckner/paldnn/tree/main/examples/mapping_sequence_space)
 
 main.py is the main script that lets you do all the above as shown by the examples
 
-## Examples
-Common usage cases for PALDNN. See example.py for the full scripts.
+## Common Usage Cases
 
 ### Using the PALDNN model for PA nanostructure prediction
 #### Load necessary packages
